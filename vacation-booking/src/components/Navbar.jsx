@@ -16,18 +16,18 @@ const handleNav =() => {
 
 return (
     <div className="w-full min-h-[50px] flex justify-between items-center absolute z-10 text-white bg-gray-700/80">
-        <ul>
+        <ul className="flex flex-row">
             <li className="hidden sm:flex px-4">
-                <a href="/">Home</a>
+                <a className="text-xl" href="/">Home</a>
             </li>
             <li>
-                <a href="#gallery">Gallery</a>
+                <a className="text-xl" href="#gallery">Gallery</a>
             </li>
             <li>
-                <a href="#deals">Deals</a>
+                <a className="text-xl" href="#deals">Deals</a>
             </li>
             <li>
-                <a href="#contact">Contact</a>
+                <a className="text-xl" href="#contact">Contact</a>
             </li>
         </ul>
         <div className="flex justify-between">
